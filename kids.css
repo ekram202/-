@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body
+{
+    background-color: white;
+}
+.box
+{
+    background-color: rgb(22, 17, 17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+.container
+{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    
+}
+.div
+{
+    width: 30%;
+
+}
+p{
+    color: white;
+    font-size: 15px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+h1
+{
+    font-size:22px;
+}
+.top
+{
+    width: 100%;
+    background-color: white;
+}
+.top2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.top2 p{
+    color: black;
+}
+h2
+{
+
+font-size: 22px;
+margin: 60px;
+padding-left: 65px;
+}
+
+.top2 div
+{
+margin: 10px;}
+
+
+
+
+
+
+
+
+
+
+/* اخر سيشكن الحمد لله بقي */
+h4{
+    padding: 20px;
+    margin-left: 53px;
+    padding-top: 60px;
+    font-size: 20px;
+
+}
+.hero
+{
+    width: 80%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+.hero2
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+.hero2 div
+{
+    padding: 10px;
+}
+
+.hero2 div p{
+    color: #777777;
+    padding: 17px 0;
+    font-size: 13px;
+}
+.hero2 div h5
+{
+font-size: 15px;
+}
+ul{
+    list-style: none;
+}
+
+h4 a{
+    color: #000;
+    border: 2px solid #000 ;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+
+
+
+

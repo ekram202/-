@@ -1,0 +1,557 @@
+*
+{
+margin: 0;
+padding: 0;
+font-family: "Noto Naskh Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+font-family: "noto_kufi_arabic";
+color: black;
+font-family: 'Cairo', sans-serif;
+font-family: 'Noto Kufi Arabic', sans-serif;
+
+}
+
+
+nav
+{
+    background-color: #444;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    flex-wrap: nowrap;
+    height: 60px;
+    color: wheat;
+    padding-left: 70px;
+    box-sizing: border-box;
+    position: fixed;
+   width: 100%;
+   z-index: 100;
+}
+.right img
+{
+    border-radius: 100%;
+    width: 37px;
+    padding: 10px;
+
+   
+ 
+}
+
+.right
+{
+color: wheat;
+margin: px;
+display: flex;
+list-style: none;
+direction: none;
+text-align: center;
+
+
+}
+.right i{
+    color: white;
+    font-size: 20px;
+    line-height: 1.3333333;
+    padding: 18px;
+
+    
+
+}
+.right a
+{
+    text-decoration: none;
+   
+    
+
+
+}
+
+
+.left
+{
+    color: wheat;
+    margin: px;
+    display: flex;
+    list-style: none;
+    direction: none;
+    text-align: center;
+    padding-right: 5px;
+    text-align: center;
+    margin-right: 50px;
+}
+.left img
+{
+    float: right;
+    line-height: 0;
+    overflow: hidden;
+    text-decoration: none;
+    z-index: 100;
+    width: 150px;
+    padding: 10px;
+}
+.left li a
+{
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+.left i{
+    color: white;
+    font-size: 17px;
+    line-height: 1.3333333;
+    padding: 18px;
+    text-align: center;
+}
+.right a
+{
+    text-decoration: none;
+
+}
+.left span
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+.background2
+{
+    background-image:url(hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg);
+    height: 99vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.header
+{
+   width: 700px;
+    margin:auto;
+    text-align: center;
+    padding-top: 250px;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    
+}
+.topic
+{
+    padding: 7px;
+
+}
+.topic h
+{
+    font-size: 36px;
+    padding-top: 4px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+.topic p
+{
+font-size: 18px;
+padding-top: 20px;
+font-family: 'Cairo', sans-serif;
+font-family: 'Noto Kufi Arabic', sans-serif;
+}
+form
+{
+    padding-top: 30px;
+    position: relative;
+    display: flex;
+
+
+}
+form input
+{
+    padding: 6px 20px;
+    font-size: 16px;
+    height: 50px;
+    width: 700px;
+    direction: rtl;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-weight: bold;
+
+
+}
+
+form button
+{
+    border-color: #45962c;
+    background-color: #45962c;  
+    border: 1px;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+   margin: 10px ;
+   cursor: pointer;
+   padding: 6px 22px;
+
+
+   
+}
+       
+
+button:hover
+{
+    color: #45962c;
+    background-color: white;
+    border-color: #45962c;
+    border: 2px solid;
+
+}
+
+input:focus
+{
+    border-color: #ccc;
+    border: 2px solid;
+
+}
+
+
+h1
+{
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    font-size: 28px;
+}
+
+.all
+{ 
+    display: flex;
+    flex-wrap:wrap;   
+    justify-content: center;
+    color: black;
+    flex-direction: row-reverse;
+
+
+}
+ .all div
+ {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 250px;
+    width: 300px;
+     display: flex;
+     margin: 0 20px;
+     cursor: pointer;
+
+
+ }
+.all img
+{
+    width:310px;
+   position: absolute;
+   z-index: -1;
+   Background-color :rgba(0, 0, 0, 0.242) ;
+   Opacity: 0.4px;
+   height: 200px;
+   
+}
+h2
+{
+    color: whitesmoke;
+    font-size: 22px;
+    font-weight: bolder;
+    opacity: 2;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    cursor: pointer;
+}
+    
+
+.box3
+{
+    background-color: #F1F1F1;
+    width: 100%;
+    box-sizing: border-box;
+}
+aside
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-top: 40px;
+
+
+}
+aside a
+{
+    color: #45962c;
+    border: 1px solid #45962c;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    margin-left: 82px;
+    padding: 5px;
+    font-weight: bold;
+}
+aside a:hover
+{
+    color: white;
+    background-color: #45962c;
+}
+h4
+{
+   
+    font-size: 25px;
+    direction: rtl;
+    color: #1b1c1d;
+    z-index: 1;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    padding-right: 82px;
+}
+
+
+.all2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.all2 div
+{
+    direction: rtl;
+    width: 300px;
+    margin: 30px;
+
+}
+
+.all2 img
+{
+    width: 300px;
+    margin-bottom: 5px;
+
+}
+
+
+.all2 .p
+{
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    padding: -10px;
+    line-height: 20px;
+}
+.all2 .pp
+{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #777777;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+    padding: 0px;
+    line-height: 0;
+
+}
+.all2 .ppp
+{
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Noto Kufi Arabic', sans-serif;   
+     padding: 4px;
+     line-height: 8px;
+     font-weight: bold;
+
+
+
+}
+.all2 ul
+{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+.all2 li i{
+    color: #fa9747;
+    font-size: 14px;
+}
+
+
+
+.container6
+{
+display: flex;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+flex-direction: row-reverse;
+margin: 40px 0;
+}
+.container6 div
+{
+    font-size: 18px;
+    text-align: right;
+}
+
+.container6 h6 
+{
+color: #1b1c1d;
+font-family: 'Cairo', sans-serif;
+font-family: 'Noto Kufi Arabic', sans-serif;
+font-size: 24px;
+font-family: "Noto Naskh Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+
+}
+.container6 ul
+{
+    list-style: none;
+}
+.container6 li
+{
+   color: #52b035;
+   font-size: 17px;
+   font-weight: 100px;
+   font-family: "Noto Naskh Arabic", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    padding-top: 11px;
+    
+
+
+}
+
+.block div
+{
+    display: inline-block;
+    margin: 0px;
+}
+
+
+.block1 div
+{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.block1 svg
+{
+    fill: white;
+    background-color: #3b5998;
+    padding: 6px;
+}
+.block1 a svg 
+{
+    padding:4px ;
+    background: #0d6efd;
+}
+.block svg
+{
+    color: white;
+    text-decoration: none;
+    fill: #737373;
+    margin-top: 10px;
+
+}
+
+.block1 .facebook-color
+{
+    background: #3b5998;
+    color: white;
+
+}
+
+
+.long
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:#F1F1F1 ;
+    flex-direction: row-reverse;
+    font-size: 17px;
+    color: #444;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.long ul
+{
+    list-style: none;
+    display: flex;
+    margin: 20px;
+
+
+
+    direction: rtl;
+}
+
+.long p{
+    margin: 20px;
+    padding-left: 40px;
+
+}
+.long li
+{
+    padding: 0 60px;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    cursor: pointer;
+
+}
+header img
+{
+text-align: center;
+width: 150px;
+}
+
+
+.finial
+{
+    display: flex;
+    font-size: 10px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+     align-items: center;
+     width: 80%;
+     margin: auto;
+     box-sizing: border-box;
+     padding: 5px;
+     margin-bottom: 70px;
+     cursor: pointer;
+
+}
+
+.finial div 
+{
+    padding: 0 8px;
+    direction: rtl;    
+}
+
+.finial h1
+{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    padding-bottom: 5px;
+}
+.finial p
+{
+font-size: 12px;
+padding-top: 0;
+}
